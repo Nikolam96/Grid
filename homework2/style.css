@@ -12,7 +12,7 @@ body {
 }
 
 .parent {
-    width: 900px;
+    width: 1000px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -27,42 +27,44 @@ body {
 }
 
 .item h1 {
-    font-size: 40px;
+    font-size: 60px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .item1 {
-    background-color: blueviolet;
+    background-color: rgb(209, 42, 103);
     grid-area: 1 / 1 / 2 / 4;
 }
 
 .item2 {
-    background-color: purple;
+    background-color: rgb(100, 85, 133);
     grid-area: 2 / 1 / 4 / 2;
 }
 
 .item3 {
-    background-color: maroon;
+    background-color: rgb(134, 119, 176);
 }
 
 .item4 {
-    background-color: aquamarine;
+    background-color: rgb(133, 199, 170);
 }
 
 .item5 {
-    background-color: brown;
+    background-color: rgb(197, 111, 203);
     grid-area: 3 / 2 / 4 / 4;
 }
 
 .item6 {
-    background-color: blueviolet;
+    background-color: rgb(209, 42, 103);
     grid-area: 4 / 1 / 5 / 3;
 }
 
 .item7 {
-    background-color: purple;
+    background-color: rgb(100, 85, 133);
 }
 
 .item8 {
-    background-color: maroon;
+    background-color: rgb(134, 119, 176);
     grid-area: 5 / 1 / 6 / 4;
 }

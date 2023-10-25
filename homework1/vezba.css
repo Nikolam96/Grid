@@ -47,6 +47,14 @@
    width: 100%;
 }
 
+.img1 {
+   min-height: 320px;
+}
+
+.img2 {
+   height: 280px;
+   width: 85%;
+}
     
 /* ROWS */
 
